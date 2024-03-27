@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.mainfourth{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 100px;
+    
+    
+}
+.fourthupperMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+ .fourthheadtext{
+    font-size: 20px;
+    
+}
+.fourthleft{
+  
+    align-items: center;
+    display:  flex;
+    
+    flex-direction: column;
+
+
+}
+.fourthleftText{
+    width: 40%;
+    font-size: 45px;
+    margin-left: 40px;
+   
+}
+.fourthright{
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-right: 40px;
+   
+}
+.onep{
+    width: 20%;
+    margin: 4px;
+}
+.onep p{
+    font-weight: 500;
+}
+.lowerMain{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: dotted 3px  black;
+    
+}
+.pack{
+    display: flex;
+   justify-content: center;
+} 
+
+
+@media only screen and (max-width: 768px) {
+    .mainfourth {
+      margin-top: 50px;
+    }
+  
+    .fourthleftText {
+      width: 70%;
+      font-size: 30px;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .fourthright {
+      width: 70%;
+      text-align: center;
+      margin-right: 0;
+    }
+  
+    .onep {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .mainfourth {
+      margin-top: 30px;
+    }
+  
+    .fourthleftText {
+      font-size: 24px;
+      width: 90%;
+    }
+  
+    .fourthright {
+      width: 90%;
+    }
+  
+    .onep {
+      width: 90%;
+    }
+  }

@@ -1,0 +1,134 @@
+.main6{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.sixdiv{
+    background-color: #e9e5ff;
+    display: flex;
+    border-radius: 50px;
+}
+.right6{
+    display: block;
+}
+.left6{
+    background-color: #fff;
+    display: flex;
+  
+    margin: 50px;
+    width: 30vw;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+.checkpart{
+    display: flex;
+   
+}
+.checkpart p{
+    padding: 20px;
+}
+.head6{
+    width: 25vw;
+    padding: 40px;
+}
+.emailbox{
+    padding: 20px;
+}
+#inputbox6{
+   border-radius: 50px;
+   padding: 5px;
+}
+.buttonbox{
+    padding: 20px;
+    width: 30vw;
+}
+.buttonbox button{
+    width: 10vw; 
+    border-radius: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+} 
+
+
+@media only screen and (max-width: 768px) {
+    .main6 {
+      margin-top: 80px;
+    }
+  
+    .sixdiv {
+      flex-direction: column;
+      border-radius: 0;
+    }
+  
+    .left6 {
+      margin: 20px;
+      width: 80vw;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .right6 {
+      display: block;
+      text-align: center;
+    }
+  
+    .head6 {
+      width: auto;
+      padding: 20px;
+    }
+  
+    .emailbox {
+      padding: 10px;
+    }
+  
+    #inputbox6 {
+      width: 70%;
+      margin: auto;
+    }
+  
+    .buttonbox {
+      width: 80vw;
+      padding: 10px;
+    }
+  
+    .buttonbox button {
+      width: 70%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .main6 {
+      margin-top: 50px;
+    }
+  
+    .left6 {
+      width: 90vw;
+    }
+  
+    .head6 {
+      padding: 10px;
+    }
+  
+    .emailbox {
+      padding: 10px;
+    }
+  
+    #inputbox6 {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .buttonbox {
+      width: 90vw;
+      padding: 10px;
+    }
+  
+    .buttonbox button {
+      width: 80%;
+      margin: auto;
+    }
+  }

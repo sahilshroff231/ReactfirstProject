@@ -1,0 +1,112 @@
+.navContainer{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between; /* Adjust spacing */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px; /* Adjust padding */
+   
+}
+.NavContainer{
+    display: block;
+}
+
+
+
+#icon-nav{
+    font-weight: bolder;
+    color: blue;
+    font-style: normal
+  
+}
+
+.signal{
+    padding:13px;
+}
+.spanlogo{
+    display:flex;
+    margin: 0 0 0 3rem;
+}
+.leftnav{
+    margin-left: 10rem;
+}
+.nav-left-li{
+    list-style:none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.nav-left-li1{
+    list-style:none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800; 
+}
+.searchIcon{
+  padding: 5px;
+}
+#searchbtn{
+    border: none;
+    background: white;
+    margin-right: 3rem;
+}
+.rightbar{
+    display: flex;
+    margin-right: 6rem;
+    
+}
+.closebutton{
+    border: none;
+    background-color: white;
+}
+.sub-nav{
+    margin: 0 0 0 30rem;
+}
+.logo{
+    margin: 0 0 0 6rem;
+    
+}
+.logodiv{
+    position:absolute;
+    top: 0;
+}
+
+.bgnav{
+    color: black;
+    font-weight: 600;
+}
+.rightbtn{
+    margin-right: 10rem;
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    .navContainer {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; 
+    }
+
+    .leftnav {
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .rightbar {
+        display: flex; /* Show the rightbar */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .rightbtn {
+        margin-right: 0; /* Remove margin */
+    }
+
+    .sub-nav {
+        margin: 0; /* Remove margin */
+    }
+
+    .nav-left-li,
+    .nav-left-li1 {
+        font-size: 12px; /* Adjust font size */
+    }
+    .spanlogo{
+        margin: 0;
+    }
+}

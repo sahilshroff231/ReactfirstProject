@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+   width: 100%;
+   height: 100vh;
+   background-color:#6754e9;
+   display: flex;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+   
+}
+.headings{
+    color: white;
+    font-family: Kanit, sans-serif;
+    font-size: 70px;
+    line-height: 60px;
+
+}
+
+.leftContent{
+     padding-top: 120px;
+     /* border: 2px solid red; */
+}
+.bottum-headings{
+    color: white;
+}
+
+.leftCard{
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+    display: flex; 
+   
+}
+.card-body{
+  display: flex;
+}
+.upperContant{
+  padding:0 60px 0 80px;
+}
+#emailinput{
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+}
+.cardbtn{
+    padding: 15px 80px 15px 80px;
+    margin-left: 50px;
+    border-radius: 20px;
+
+}
+.rightContent{
+    /* border: 3px solid red; */
+    margin-left: 5rem;
+    display: flex;
+}
+.rightimgbox{
+    /* border: 3px solid black; */
+    margin: 0 0 0 8rem;  
+   
+}
+ .img1{
+    width: 18vw;
+    height: 55vh;  
+    border-radius: 20px; 
+    margin-top: 150px;
+  
+   
+}
+.secondimg{
+    margin-left: 40px;
+}
+.img2{
+    width: 18vw;
+    height: 55vh;  
+    border-radius: 20px; 
+    margin-top: 20px;
+
+}
+.img3{
+    width: 18vw;
+    height: 55vh;  
+    border-radius: 20px;   
+    margin-top: 30px;
+    box-shadow: 20px   gray;
+  
+    
+}
+
+ 
+
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+      flex-direction: column;
+      height: auto;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+
+  .leftContent {
+      padding-top: 60px;
+  }
+
+  .rightContent {
+      margin-left: 0;
+      align-items: center;
+  }
+
+  .rightimgbox {
+      margin: 0;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+      width: 80%;
+      height: auto;
+      margin-top: 40px;
+  }
+
+  .secondimg {
+      margin-left: 0;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .cardbtn {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .headings {
+      font-size: 40px;
+      line-height: 50px;
+  }
+
+  .bottum-headings {
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  #emailinput {
+      width: 80%;
+  }
+
+  .cardbtn {
+      padding: 10px 40px;
+      font-size: 14px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+      width: 90%;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .headings {
+      font-size: 50px;
+      line-height: 60px;
+  }
+
+  .bottum-headings {
+      font-size: 18px;
+      line-height: 26px;
+  }
+
+  #emailinput {
+      width: 70%;
+  }
+
+  .cardbtn {
+      padding: 12px 60px;
+      font-size: 16px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+      width: 70%;
+  }
+}
